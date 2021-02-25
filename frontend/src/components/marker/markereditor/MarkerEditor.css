@@ -1,0 +1,27 @@
+.editor-fields-container{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.form-field-editor{
+    display: flex;
+    padding: 5px;
+}
+.form-field-editor label{
+    font-size: large;
+    flex: 1;
+}
+.form-field-editor input[type]{
+    width: 130px;
+    flex: 3.5;
+}
+.editor-buttons-container{
+    display: flex;
+    padding-top: 5px;
+    flex-direction: row-reverse;
+    border-top: 1px solid #d8d8d8;
+    margin-top: 10px;
+}
+.editor-buttons-container button{
+    margin:0px 3px;
+}

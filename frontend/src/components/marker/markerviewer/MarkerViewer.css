@@ -1,0 +1,22 @@
+.viewer-fields-container{
+    display: flex;
+    width: 250px;
+}
+.viewer-fields-container img{
+    width:100px;
+    height: 100px;
+    margin-right: 5px;
+}
+.viewer-fields-container label{
+    font-size: large;
+}
+.viewer-buttons-container{
+    display: flex;
+    padding-top: 5px;
+    flex-direction: row-reverse;
+    border-top: 1px solid #d8d8d8;
+    margin-top: 10px;
+}
+.viewer-buttons-container button{
+    margin:0px 3px;
+}
