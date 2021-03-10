@@ -5,7 +5,7 @@ This project is bootstrapped with Create React App.
 
 It is a small React-Redux-Nodejs application with javascript Language for managment of visited or tourist places on your favorite locations. It allows you to keep track of all your favorite places around the world, and mark them. Marked places are displayed with their corresponding info on the map.
 
- ### In this project:
+ #### In this project:
  
  Backend part (node.js): provides a REST API to create, read, update and delete places. Each place has the properties: id, latitude, longitude, name,and image URL.
  
