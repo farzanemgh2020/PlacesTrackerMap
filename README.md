@@ -8,6 +8,7 @@ It is a small React-Redux-Nodejs application with javascript Language for managm
  ###In this project:
  
  backend part (node.js): provides a REST API to create, read, update and delete places. Each place has the properties: id, latitude, longitude, name,and image URL.
+ 
  frontend part (React.js): shows a leaftlet map as a central component that provides the following features:
  
    1. Showing all existing markers(previous marked places)
