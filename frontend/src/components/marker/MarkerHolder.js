@@ -8,11 +8,7 @@ import {loadPlaces} from '../../actions/PlaceActions';
 import { connect } from 'react-redux';
 
 class MarkerHolder extends React.Component {
-    constructor(props) {
-      super();
-      this.props = props;
-    }
-     
+  
     componentDidMount() {
       this.props.loadPlaces();
     }
